@@ -7,7 +7,7 @@ for(var i=0;i<instance_number(obj_collidable);i++) {
 	var _border_x = _cw;
 	var _border_y = _ch;
 	var _inst = instance_find(obj_collidable, i);
-	if(_inst.x < _cx-_border_x || _inst.x > _cx+_cw+_border_x || _inst.y < _cy-_border_y || _inst.y > _cy+_ch+_border_y) continue;
+	//if(_inst.x < _cx-_border_x || _inst.x > _cx+_cw+_border_x || _inst.y < _cy-_border_y || _inst.y > _cy+_ch+_border_y) continue;
 	_inst.updateTransformedPolygon(_inst.x, _inst.y, _inst.angle);
 	array_push(_collidables, _inst);
 }
@@ -18,7 +18,10 @@ for(var i=0;i<array_length(_collidables);i++) {
 		if(_collidables[i].mass != infinity || _collidables[j].mass != infinity) {
 			var _intersections = _collidables[i].transformed_polygon.getIntersectionsWithPolygon(_collidables[j].transformed_polygon);
 			for(var k=0;k<array_length(_intersections);k+=2) {
-				array_push(_collisions, new Collision(_intersections[k], _intersections[k+1], _collidables[i], _collidables[j]));
+				var _col = new Collision(_intersections[k], _intersections[k+1], _collidables[i], _collidables[j]);
+				//array_push(lines_to_draw, [_col.location, add(_col.location,scale(_col.unit_normal, 100))]);
+				//queue_line_draw(_col.location, add(_col.location, scale(_col.unit_normal, 100)));
+				array_push(_collisions, _col);
 			}
 		}
 	}

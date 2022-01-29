@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_thing",
-    "path": "sprites/spr_thing/spr_thing.yy",
+    "name": "spr_angel_and_demon",
+    "path": "sprites/spr_angel_and_demon/spr_angel_and_demon.yy",
   },
   "solid": false,
   "visible": true,
