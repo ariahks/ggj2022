@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "spr_projectile",
-    "path": "sprites/spr_projectile/spr_projectile.yy",
+    "name": "spr_solid",
+    "path": "sprites/spr_solid/spr_solid.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_collidable",
+    "path": "objects/obj_collidable/obj_collidable.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -22,7 +25,6 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -31,7 +33,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_projectile",
+  "name": "obj_geometry",
   "tags": [],
   "resourceType": "GMObject",
 }
