@@ -1,11 +1,11 @@
 {
-  "spriteId": null,
-  "solid": false,
-  "visible": false,
-  "spriteMaskId": {
-    "name": "spr_solid",
-    "path": "sprites/spr_solid/spr_solid.yy",
+  "spriteId": {
+    "name": "spr_boom",
+    "path": "sprites/spr_boom/spr_boom.yy",
   },
+  "solid": false,
+  "visible": true,
+  "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
@@ -22,6 +22,7 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -30,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_collidable",
+  "name": "obj_explosion",
   "tags": [],
   "resourceType": "GMObject",
 }

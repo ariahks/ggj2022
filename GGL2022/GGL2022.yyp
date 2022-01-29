@@ -1,13 +1,17 @@
 {
   "resources": [
+    {"id":{"name":"spr_boom","path":"sprites/spr_boom/spr_boom.yy",},"order":6,},
     {"id":{"name":"spr_obstacle","path":"sprites/spr_obstacle/spr_obstacle.yy",},"order":3,},
     {"id":{"name":"scr_vectors","path":"scripts/scr_vectors/scr_vectors.yy",},"order":0,},
     {"id":{"name":"obj_projectile","path":"objects/obj_projectile/obj_projectile.yy",},"order":1,},
+    {"id":{"name":"spr_spike","path":"sprites/spr_spike/spr_spike.yy",},"order":7,},
     {"id":{"name":"spr_projectile","path":"sprites/spr_projectile/spr_projectile.yy",},"order":2,},
+    {"id":{"name":"obj_explosion","path":"objects/obj_explosion/obj_explosion.yy",},"order":7,},
     {"id":{"name":"MACROS","path":"scripts/MACROS/MACROS.yy",},"order":2,},
     {"id":{"name":"obj_collidable","path":"objects/obj_collidable/obj_collidable.yy",},"order":3,},
     {"id":{"name":"spr_solid","path":"sprites/spr_solid/spr_solid.yy",},"order":5,},
     {"id":{"name":"obj_geometry","path":"objects/obj_geometry/obj_geometry.yy",},"order":5,},
+    {"id":{"name":"obj_spike","path":"objects/obj_spike/obj_spike.yy",},"order":6,},
     {"id":{"name":"spr_thing","path":"sprites/spr_thing/spr_thing.yy",},"order":0,},
     {"id":{"name":"obj_thing","path":"objects/obj_thing/obj_thing.yy",},"order":0,},
     {"id":{"name":"spr_angel_and_demon","path":"sprites/spr_angel_and_demon/spr_angel_and_demon.yy",},"order":4,},
