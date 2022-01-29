@@ -11,8 +11,8 @@ max_velocity = 20;
 
 wing_angel_index = 0;
 wing_devil_index = 0;
-wing_angel_speed = 2/60;
-wing_devil_speed = 2/60;
+wing_angel_timer = 0;
+wing_devil_timer = 0;
 
 devil_rotation = 0
 angel_rotation = 0
@@ -26,11 +26,14 @@ var _p4 = [-sprite_width/2, sprite_height/2]
 polygon = new Polygon([_p1, _p2, _p3, _p4]);
 
 function fire(_dir, _pos) {
-	applyForceRel(rotate(scale(_dir, -force_from_shot), angle), scale(_pos, fire_distance_from_center));
 	var _proj_pos = add(rotate([_pos[0]*78,16], angle), [x,y]);
 	with(instance_create_depth(_proj_pos[0], _proj_pos[1], depth+1, obj_projectile)) {
-		velocity = rotate(scale(_dir, 4), other.angle);
+		velocity = add(scale(other.velocity, 0), rotate(scale(_dir, 1), other.angle));
+		var _min_proj_speed = 10;
+		if(norm(velocity) == 0) velocity = rotate(scale(_dir, 1), other.angle); //To avoid crashes
+		if(norm(velocity) < _min_proj_speed) velocity = scale(velocity, _min_proj_speed/norm(velocity));
 	}
+	applyForceRel(rotate(scale(_dir, -force_from_shot), angle), scale(_pos, fire_distance_from_center));
 }
 cooldown_a = 0;
 cooldown_d = 0;

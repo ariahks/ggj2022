@@ -5,14 +5,11 @@ if(norm(velocity) > max_velocity) {
 x += velocity[0];
 y += velocity[1];
 
-wing_angel_index += wing_angel_speed;
-wing_devil_index += wing_devil_speed;
-if(wing_angel_index >= sprite_get_number(spr_angel_wings)) wing_angel_index = 0;
-if(wing_devil_index >= sprite_get_number(spr_devil_wings)) wing_devil_index = 0;
-
 
 angel_rotation_vel += (0.2 - angel_rotation) / 100;
 devil_rotation_vel += (0.2 - devil_rotation) / 100;
+angel_rotation_vel *= 0.999;
+devil_rotation_vel *= 0.999;
 
 angel_rotation += angel_rotation_vel;
 devil_rotation += devil_rotation_vel;
@@ -49,14 +46,22 @@ if(key_a && cooldown_a == 0) {
 	cooldown_a = 5;
 	fire([-1, 1], [-1, 0]);
 	angel_rotation_vel = -0.4;
+	wing_devil_index = 1;
+	if(wing_devil_timer == 0) wing_devil_timer = 15;
 }
 if(key_d && cooldown_d == 0) {
 	cooldown_d = 5;
 	fire([1, 1], [1, 0]);
 	devil_rotation_vel = -0.4;
+	wing_angel_index = 1;
+	if(wing_angel_timer == 0) wing_angel_timer = 15;
 }
 
+if(wing_angel_timer == 0) wing_angel_index = 0;
+if(wing_devil_timer == 0) wing_devil_index = 0;
 
+wing_angel_timer = max(0, wing_angel_timer-1);
+wing_devil_timer = max(0, wing_devil_timer-1);
 
 
 

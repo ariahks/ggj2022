@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"spr_devil_wings","path":"sprites/spr_devil_wings/spr_devil_wings.yy",},"order":6,},
     {"id":{"name":"spr_angel_wings","path":"sprites/spr_angel_wings/spr_angel_wings.yy",},"order":7,},
+    {"id":{"name":"Sprite13","path":"sprites/Sprite13/Sprite13.yy",},"order":12,},
     {"id":{"name":"spr_obstacle","path":"sprites/spr_obstacle/spr_obstacle.yy",},"order":3,},
     {"id":{"name":"spr_devil","path":"sprites/spr_devil/spr_devil.yy",},"order":11,},
     {"id":{"name":"scr_vectors","path":"scripts/scr_vectors/scr_vectors.yy",},"order":0,},
