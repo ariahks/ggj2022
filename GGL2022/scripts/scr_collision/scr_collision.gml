@@ -39,7 +39,6 @@ function Polygon(_vertices) constructor {
 			array_delete(_intersections, 0, 1);
 			array_push(_intersections, _first_intersection);
 		}
-		if(array_length(_intersections) % 2 != 0) array_delete(_intersections, array_length(_intersections)-1, 1); //Bad but prevents crashes
 		return _intersections;
 	}
 	
@@ -154,7 +153,6 @@ function Collision(_intersection1, _intersection2, _collider1, _collider2) const
 		var _root = sqr(_b) - _a * _previous_energy_doubled * (1 - ENERGY_CONSERVED);
 		var _collision_force = (-_b + (_root < 0 ? 0 : sqrt(_root))) / _a;
 		
-		//show_debug_message(_collision_force);
 		force = scale(unit_normal, _collision_force);
 	}
 	

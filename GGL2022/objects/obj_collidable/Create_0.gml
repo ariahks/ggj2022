@@ -1,4 +1,4 @@
-angle = degtorad(image_angle);
+angle = 0;
 mass = infinity;
 inertia = infinity;
 polygon = undefined;
@@ -17,7 +17,6 @@ function applyForce(_force, _pos) {
 	if(inertia != infinity) {
 		var _r = scale(add(_pos, scale([x,y], -1)), -1); //-1 to deal with GMS2's weird coordinate system (y = -y)
 		var _torque = cross(_r, _force);
-//		obj_controller.queue_line_draw(_pos, add(_pos, scale(_force, 1000))); // Draw Force Lines
 		velocity_angular += _torque / inertia;
 	}
 	if(mass != infinity) {

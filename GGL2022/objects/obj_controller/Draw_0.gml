@@ -1,4 +1,4 @@
-/*draw_set_color(c_blue);
+draw_set_color(c_blue);
 draw_line(10, 10, 20, 20);
 for(var i=0;i<instance_number(obj_collidable);i++) {
 	var _cx = camera_get_view_x(view_camera[0]);
@@ -17,10 +17,3 @@ for(var i=0;i<instance_number(obj_collidable);i++) {
 		draw_line(_vertices[j][0], _vertices[j][1], _vertices[(j+1)%array_length(_vertices)][0], _vertices[(j+1)%array_length(_vertices)][1]);
 	}
 }
-
-
-for(var i=0;i<array_length(lines_to_draw);i++) {
-	var _line = lines_to_draw[i];
-	draw_set_color(c_yellow);
-	draw_line_color(_line[0][0], _line[0][1], _line[1][0], _line[1][1], c_red, c_blue);
-}*/
