@@ -19,15 +19,24 @@ angel_rotation = 0
 devil_rotation_vel = 0
 angel_rotation_vel = 0
 
-var _p1 = [-sprite_width/2, -sprite_height/2]
-var _p2 = [sprite_width/2, -sprite_height/2]
-var _p3 = [sprite_width/2, sprite_height/2]
-var _p4 = [-sprite_width/2, sprite_height/2]
-polygon = new Polygon([_p1, _p2, _p3, _p4]);
+var _tl = [-sprite_width/2, -sprite_height/2];
 
-function fire(_dir, _pos) {
+var _p1 = add(_tl, [0, 100]);
+var _p2 = add(_tl, [100, 100]);
+var _p3 = add(_tl, [136, 136]);
+var _p4 = add(_tl, [180, 136]);
+var _p5 = add(_tl, [200, 64]);
+var _p6 = add(_tl, [190, 28]);
+var _p7 = add(_tl, [148, 20]);
+var _p8 = add(_tl, [142, 0]);
+var _p9 = add(_tl, [100, 0]);
+var _p10 = add(_tl, [100, 36]);
+var _p11 = add(_tl, [0, 36]);
+polygon = new Polygon([_p1, _p2, _p3, _p4, _p5, _p6, _p7, _p8, _p9, _p10, _p11]);
+
+function fire(_dir, _pos, _obj) {
 	var _proj_pos = add(rotate([_pos[0]*78,16], angle), [x,y]);
-	with(instance_create_depth(_proj_pos[0], _proj_pos[1], depth+1, obj_projectile)) {
+	with(instance_create_depth(_proj_pos[0], _proj_pos[1], depth+1, _obj)) {
 		velocity = add(scale(other.velocity, 0), rotate(scale(_dir, 1), other.angle));
 		var _min_proj_speed = 10;
 		if(norm(velocity) == 0) velocity = rotate(scale(_dir, 1), other.angle); //To avoid crashes

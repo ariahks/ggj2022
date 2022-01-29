@@ -44,14 +44,14 @@ cooldown_d = max(0, cooldown_d-1);
 
 if(key_a && cooldown_a == 0) {
 	cooldown_a = 5;
-	fire([-1, 1], [-1, 0]);
+	fire([-1, 1], [-1, 0], obj_proj_devil);
 	angel_rotation_vel = -0.4;
 	wing_devil_index = 1;
 	if(wing_devil_timer == 0) wing_devil_timer = 15;
 }
 if(key_d && cooldown_d == 0) {
 	cooldown_d = 5;
-	fire([1, 1], [1, 0]);
+	fire([1, 1], [1, 0], obj_proj_angel);
 	devil_rotation_vel = -0.4;
 	wing_angel_index = 1;
 	if(wing_angel_timer == 0) wing_angel_timer = 15;

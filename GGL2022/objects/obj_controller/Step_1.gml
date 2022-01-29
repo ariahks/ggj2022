@@ -7,7 +7,7 @@ for(var i=0;i<instance_number(obj_collidable);i++) {
 	var _border_x = _cw;
 	var _border_y = _ch;
 	var _inst = instance_find(obj_collidable, i);
-	if(_inst.x < _cx-_border_x || _inst.x > _cx+_cw+_border_x || _inst.y < _cy-_border_y || _inst.y > _cy+_ch+_border_y) continue;
+	//if(_inst.x < _cx-_border_x || _inst.x > _cx+_cw+_border_x || _inst.y < _cy-_border_y || _inst.y > _cy+_ch+_border_y) continue;
 	_inst.updateTransformedPolygon(_inst.x, _inst.y, _inst.angle);
 	array_push(_collidables, _inst);
 }

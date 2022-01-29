@@ -4,7 +4,7 @@
     "path": "texturegroups/Default",
   },
   "sequence": {
-    "spriteId": {"name":"Sprite13","path":"sprites/Sprite13/Sprite13.yy",},
+    "spriteId": {"name":"spr_brick_tileset","path":"sprites/spr_brick_tileset/spr_brick_tileset.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -16,7 +16,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"a828c441-12fe-40c2-9ac6-dc68c0eec3d7","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7e570a6d-1e54-435e-aded-e71aa3c8c91e","path":"sprites/Sprite13/Sprite13.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"c6e3d15b-dfb8-4713-89ab-d0e24962e381","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"681ef7ea-8f53-42b6-bd39-ec68eb41e38f","path":"sprites/spr_brick_tileset/spr_brick_tileset.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -33,9 +33,9 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"Sprite13","path":"sprites/Sprite13/Sprite13.yy",},
+    "parent": {"name":"spr_brick_tileset","path":"sprites/spr_brick_tileset/spr_brick_tileset.yy",},
     "resourceVersion": "1.3",
-    "name": "Sprite13",
+    "name": "spr_brick_tileset",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -47,25 +47,25 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 0,
-  "bbox_right": 0,
+  "bbox_left": 544,
+  "bbox_right": 6527,
   "bbox_top": 0,
-  "bbox_bottom": 0,
+  "bbox_bottom": 2719,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 64,
-  "height": 64,
+  "width": 6528,
+  "height": 2720,
   "swatchColours": null,
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"7e570a6d-1e54-435e-aded-e71aa3c8c91e","path":"sprites/Sprite13/Sprite13.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7e570a6d-1e54-435e-aded-e71aa3c8c91e","path":"sprites/Sprite13/Sprite13.yy",},"LayerId":{"name":"777383a4-dbb9-40f1-89d7-90f80c5ee383","path":"sprites/Sprite13/Sprite13.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Sprite13","path":"sprites/Sprite13/Sprite13.yy",},"resourceVersion":"1.0","name":"7e570a6d-1e54-435e-aded-e71aa3c8c91e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"681ef7ea-8f53-42b6-bd39-ec68eb41e38f","path":"sprites/spr_brick_tileset/spr_brick_tileset.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"681ef7ea-8f53-42b6-bd39-ec68eb41e38f","path":"sprites/spr_brick_tileset/spr_brick_tileset.yy",},"LayerId":{"name":"f18f2cff-8d2d-423c-a903-a59df7c3feff","path":"sprites/spr_brick_tileset/spr_brick_tileset.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_brick_tileset","path":"sprites/spr_brick_tileset/spr_brick_tileset.yy",},"resourceVersion":"1.0","name":"681ef7ea-8f53-42b6-bd39-ec68eb41e38f","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"777383a4-dbb9-40f1-89d7-90f80c5ee383","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f18f2cff-8d2d-423c-a903-a59df7c3feff","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Sprite13",
+  "name": "spr_brick_tileset",
   "tags": [],
   "resourceType": "GMSprite",
 }
