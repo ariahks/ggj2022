@@ -4,7 +4,7 @@
     "path": "texturegroups/Default",
   },
   "sequence": {
-    "spriteId": {"name":"spr_angel_and_demon","path":"sprites/spr_angel_and_demon/spr_angel_and_demon.yy",},
+    "spriteId": {"name":"spr_devil","path":"sprites/spr_devil/spr_devil.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -16,7 +16,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"1061ce8b-b586-4269-9098-9e905a3b7206","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a80ef904-8457-42a8-98bd-c22159219ab9","path":"sprites/spr_angel_and_demon/spr_angel_and_demon.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"58d16686-bce3-41a9-bdc8-2faf94bc712a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a80ef904-8457-42a8-98bd-c22159219ab9","path":"sprites/spr_devil/spr_devil.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -33,9 +33,9 @@
     "yorigin": 68,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_angel_and_demon","path":"sprites/spr_angel_and_demon/spr_angel_and_demon.yy",},
+    "parent": {"name":"spr_devil","path":"sprites/spr_devil/spr_devil.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_angel_and_demon",
+    "name": "spr_devil",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -60,9 +60,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"a80ef904-8457-42a8-98bd-c22159219ab9","path":"sprites/spr_angel_and_demon/spr_angel_and_demon.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a80ef904-8457-42a8-98bd-c22159219ab9","path":"sprites/spr_angel_and_demon/spr_angel_and_demon.yy",},"LayerId":{"name":"89ea5fc3-23cc-43e9-904d-1e64953787a5","path":"sprites/spr_angel_and_demon/spr_angel_and_demon.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_angel_and_demon","path":"sprites/spr_angel_and_demon/spr_angel_and_demon.yy",},"resourceVersion":"1.0","name":"a80ef904-8457-42a8-98bd-c22159219ab9","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a80ef904-8457-42a8-98bd-c22159219ab9","path":"sprites/spr_devil/spr_devil.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a80ef904-8457-42a8-98bd-c22159219ab9","path":"sprites/spr_devil/spr_devil.yy",},"LayerId":{"name":"89ea5fc3-23cc-43e9-904d-1e64953787a5","path":"sprites/spr_devil/spr_devil.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_devil","path":"sprites/spr_devil/spr_devil.yy",},"resourceVersion":"1.0","name":"a80ef904-8457-42a8-98bd-c22159219ab9","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"89ea5fc3-23cc-43e9-904d-1e64953787a5","tags":[],"resourceType":"GMImageLayer",},
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_angel_and_demon",
+  "name": "spr_devil",
   "tags": [],
   "resourceType": "GMSprite",
 }
