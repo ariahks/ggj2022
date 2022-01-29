@@ -1,13 +1,16 @@
 {
-  "spriteId": null,
-  "solid": false,
-  "visible": false,
-  "spriteMaskId": {
-    "name": "spr_solid",
-    "path": "sprites/spr_solid/spr_solid.yy",
+  "spriteId": {
+    "name": "spr_spike",
+    "path": "sprites/spr_spike/spr_spike.yy",
   },
+  "solid": false,
+  "visible": true,
+  "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_hazard",
+    "path": "objects/obj_hazard/obj_hazard.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -30,7 +33,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_collidable",
+  "name": "obj_spike",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -21,6 +21,8 @@
     {"id":{"name":"spr_bg_heaven","path":"sprites/spr_bg_heaven/spr_bg_heaven.yy",},"order":8,},
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"obj_spike","path":"objects/obj_spike/obj_spike.yy",},"order":6,},
+    
   ],
   "Options": [
     {"name":"Android","path":"options/android/options_android.yy",},
