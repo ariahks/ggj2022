@@ -1,0 +1,1 @@
+scr_play(5, false);

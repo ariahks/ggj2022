@@ -98,7 +98,7 @@
     {"spriteId":{"name":"spr_bg_hell2","path":"sprites/spr_bg_hell2/spr_bg_hell2.yy",},"colour":4294967295,"x":0,"y":0,"htiled":true,"vtiled":true,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":700,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Background","tags":[],"resourceType":"GMRBackgroundLayer",},
   ],
   "inheritLayers": false,
-  "creationCodeFile": "${project_dir}/rooms/Room3/RoomCreationCode.gml",
+  "creationCodeFile": "${project_dir}/rooms/lvl3/RoomCreationCode.gml",
   "inheritCode": false,
   "instanceCreationOrder": [
     {"name":"inst_6531B865_1_1_1_2","path":"rooms/lvl3/lvl3.yy",},

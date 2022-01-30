@@ -45,4 +45,4 @@ if(image_speed == 1 && image_index >= image_number-1) {
 	sprite_index = spr_gazer;
 }
 
-if(sprite_index == spr_gazer_closed) shoot_alarm = 100;
+if(sprite_index == spr_gazer_closed) shoot_alarm = 110;

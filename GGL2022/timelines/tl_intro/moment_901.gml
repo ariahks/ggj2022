@@ -1,0 +1,1 @@
+global.c_devil.x-=3;

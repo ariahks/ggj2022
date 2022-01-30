@@ -1,0 +1,1 @@
+global.c_angel.image_xscale=1;

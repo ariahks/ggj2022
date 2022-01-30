@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_snake",
-    "path": "sprites/spr_snake/spr_snake.yy",
+    "name": "spr_snake_devil",
+    "path": "sprites/spr_snake_devil/spr_snake_devil.yy",
   },
   "solid": false,
   "visible": true,
