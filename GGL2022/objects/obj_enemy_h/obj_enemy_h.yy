@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "spr_enemy",
-    "path": "sprites/spr_enemy/spr_enemy.yy",
+    "name": "spr_snake",
+    "path": "sprites/spr_snake/spr_snake.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_killable_hazard",
-    "path": "objects/obj_killable_hazard/obj_killable_hazard.yy",
+    "name": "obj_hazard",
+    "path": "objects/obj_hazard/obj_hazard.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,

@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "spr_gazer",
-    "path": "sprites/spr_gazer/spr_gazer.yy",
+    "name": "spr_gazer_closed",
+    "path": "sprites/spr_gazer_closed/spr_gazer_closed.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_hazard",
+    "path": "objects/obj_hazard/obj_hazard.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
