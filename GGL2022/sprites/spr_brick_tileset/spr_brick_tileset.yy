@@ -16,7 +16,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"c6e3d15b-dfb8-4713-89ab-d0e24962e381","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"681ef7ea-8f53-42b6-bd39-ec68eb41e38f","path":"sprites/spr_brick_tileset/spr_brick_tileset.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"0ea5c40f-db4d-4b80-9fec-27c8df2c2456","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b01fdc2b-50ca-46bd-8c33-3a2ab24d0c58","path":"sprites/spr_brick_tileset/spr_brick_tileset.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -47,25 +47,25 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 544,
-  "bbox_right": 6527,
+  "bbox_left": 136,
+  "bbox_right": 1631,
   "bbox_top": 0,
-  "bbox_bottom": 2719,
+  "bbox_bottom": 3399,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 6528,
-  "height": 2720,
+  "width": 1632,
+  "height": 3400,
   "swatchColours": null,
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"681ef7ea-8f53-42b6-bd39-ec68eb41e38f","path":"sprites/spr_brick_tileset/spr_brick_tileset.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"681ef7ea-8f53-42b6-bd39-ec68eb41e38f","path":"sprites/spr_brick_tileset/spr_brick_tileset.yy",},"LayerId":{"name":"f18f2cff-8d2d-423c-a903-a59df7c3feff","path":"sprites/spr_brick_tileset/spr_brick_tileset.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_brick_tileset","path":"sprites/spr_brick_tileset/spr_brick_tileset.yy",},"resourceVersion":"1.0","name":"681ef7ea-8f53-42b6-bd39-ec68eb41e38f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b01fdc2b-50ca-46bd-8c33-3a2ab24d0c58","path":"sprites/spr_brick_tileset/spr_brick_tileset.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b01fdc2b-50ca-46bd-8c33-3a2ab24d0c58","path":"sprites/spr_brick_tileset/spr_brick_tileset.yy",},"LayerId":{"name":"0603d845-8037-44ae-9684-058b66c54bec","path":"sprites/spr_brick_tileset/spr_brick_tileset.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_brick_tileset","path":"sprites/spr_brick_tileset/spr_brick_tileset.yy",},"resourceVersion":"1.0","name":"b01fdc2b-50ca-46bd-8c33-3a2ab24d0c58","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f18f2cff-8d2d-423c-a903-a59df7c3feff","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0603d845-8037-44ae-9684-058b66c54bec","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

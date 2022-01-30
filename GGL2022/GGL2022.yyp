@@ -1,10 +1,12 @@
 {
   "resources": [
+    {"id":{"name":"obj_parallax","path":"objects/obj_parallax/obj_parallax.yy",},"order":14,},
     {"id":{"name":"spr_devil_wings","path":"sprites/spr_devil_wings/spr_devil_wings.yy",},"order":6,},
     {"id":{"name":"spr_spike","path":"sprites/spr_spike/spr_spike.yy",},"order":16,},
     {"id":{"name":"obj_hazard","path":"objects/obj_hazard/obj_hazard.yy",},"order":9,},
     {"id":{"name":"spr_proj_devil","path":"sprites/spr_proj_devil/spr_proj_devil.yy",},"order":17,},
     {"id":{"name":"spr_angel_wings","path":"sprites/spr_angel_wings/spr_angel_wings.yy",},"order":7,},
+    {"id":{"name":"scr_variety_tiles","path":"scripts/scr_variety_tiles/scr_variety_tiles.yy",},"order":3,},
     {"id":{"name":"spr_proj_angel","path":"sprites/spr_proj_angel/spr_proj_angel.yy",},"order":12,},
     {"id":{"name":"spr_bg_hell2","path":"sprites/spr_bg_hell2/spr_bg_hell2.yy",},"order":18,},
     {"id":{"name":"obj_explosion","path":"objects/obj_explosion/obj_explosion.yy",},"order":8,},
@@ -38,6 +40,7 @@
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},"order":1,},
     {"id":{"name":"spr_cannon","path":"sprites/spr_cannon/spr_cannon.yy",},"order":14,},
     {"id":{"name":"obj_enemy_projectile","path":"objects/obj_enemy_projectile/obj_enemy_projectile.yy",},"order":7,},
+    {"id":{"name":"Room3","path":"rooms/Room3/Room3.yy",},"order":2,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -61,6 +64,7 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
+    {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

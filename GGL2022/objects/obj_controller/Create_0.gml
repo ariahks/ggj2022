@@ -1,4 +1,6 @@
-depth = -999
+depth = -999;
+randomize();
+generate_tile_variety();
 
 lines_to_draw = [];
 
