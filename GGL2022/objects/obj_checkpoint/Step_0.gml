@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-//image_index = chosen;
+image_index = chosen;
 
 with(instance_place(x, y, obj_thing))
 {
@@ -12,10 +12,14 @@ with(instance_place(x, y, obj_thing))
 	}
 }
 
-if(chosen and obj_thing.alive == false and instance_exists(obj_explosion) == false)
+if(chosen && !obj_thing.alive && !instance_exists(obj_transition))
 {
-	obj_thing.x = x;
-	obj_thing.y = y+50;
-	obj_thing.alive = true;
-	view_object[0] = obj_thing;
+	with(instance_create_depth(0, 0, 0, obj_transition)) {
+		sprite_index = spr_transition_diamond;
+		trans_color = $000000;
+		dest_x = other.x;
+		dest_y = other.y;
+		//dest_room = room;
+	}
+	//view_object[0] = obj_thing;
 }

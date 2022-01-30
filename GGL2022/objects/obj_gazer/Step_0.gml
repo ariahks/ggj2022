@@ -11,7 +11,7 @@ if(instance_exists(obj_thing) && obj_thing.alive && distance_to_object(obj_thing
 	shoot_alarm++;
 	if(shoot_alarm > shoot_alarm_max)
 	{
-		with(instance_create_depth(x, y, depth-1, obj_enemy_projectile)) 
+		with(instance_create_depth(x, y, depth-1, obj_gazer_projectile)) 
 		{
 			source = other;
 			//velocity[0] = 4 * dcos(other.direction);
@@ -36,8 +36,6 @@ if(target_in_range && sprite_index == spr_gazer_closed && image_speed == 0) {
 	image_speed = -1;
 }
 
-show_debug_message(image_index);
-
 if(image_speed == -1 && image_index <= 1) {
 	image_speed = 0;
 }
@@ -47,4 +45,4 @@ if(image_speed == 1 && image_index >= image_number-1) {
 	sprite_index = spr_gazer;
 }
 
-if(sprite_index == spr_gazer_closed) shoot_alarm = 0;
+if(sprite_index == spr_gazer_closed) shoot_alarm = 100;

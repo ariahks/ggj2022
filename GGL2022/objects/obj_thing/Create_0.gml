@@ -44,9 +44,21 @@ var _p10 = add(_tl, [100, 36]);
 var _p11 = add(_tl, [0, 36]);
 polygon = new Polygon([_p1, _p2, _p3, _p4, _p5, _p6, _p7, _p8, _p9, _p10, _p11]);
 
+/*
+var _p1 = _tl;
+var _p2 = add(_tl, [sprite_width, 0]);
+var _p3 = add(_tl, [sprite_width, sprite_height]);
+var _p4 = add(_tl, [0, sprite_height]);
+polygon = new Polygon([_p1, _p2, _p3, _p4]);
+*/
+
 function fire(_dir, _pos, _obj) {
+	var _snd = audio_play_sound((_obj == obj_proj_angel ? snd_shine : snd_fire), 8, false);
+	audio_sound_pitch(_snd, random_range(0.9,1.1));
+	audio_sound_gain(_snd, global.vol_sounds/100, 0);
+	
 	var _proj_pos = add(rotate([_pos[0]*78,16], angle), [x,y]);
-	with(instance_create_depth(_proj_pos[0], _proj_pos[1], depth+1, _obj)) {
+	with(instance_create_depth(_proj_pos[0], _proj_pos[1], 900, _obj)) {
 		velocity = add(scale(other.velocity, 0), rotate(scale(_dir, 1), other.angle));
 		var _min_proj_speed = 10;
 		if(norm(velocity) == 0) velocity = rotate(scale(_dir, 1), other.angle); //To avoid crashes
@@ -54,10 +66,13 @@ function fire(_dir, _pos, _obj) {
 	}
 	applyForceRel(rotate(scale(_dir, -force_from_shot), angle), scale(_pos, fire_distance_from_center));
 }
-cooldown_a = 0;
-cooldown_d = 0;
+cooldown_angel = 0;
+cooldown_devil = 0;
 
 function bonk() {
+	var _snd = audio_play_sound(snd_bonk, 8, false);
+	audio_sound_pitch(_snd, random_range(0.9,1.1));
+	audio_sound_gain(_snd, global.vol_sounds/100, 0);
 	bonk_timer = 30;
 	sprite_angel = spr_angel_bonk;
 	sprite_devil = spr_devil_bonk;

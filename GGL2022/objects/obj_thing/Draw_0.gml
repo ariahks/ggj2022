@@ -10,11 +10,6 @@ draw_sprite_ext(spr_devil_wings, wing_devil_index, x, y, 1, 1, radtodeg(angle) +
 draw_sprite_ext(spr_angel_wings, wing_angel_index, x, y, 1, 1, radtodeg(angle) + angel_rotation, c_white, 1);
 
 
-draw_set_color(c_yellow);
-var _p = [64, 0];
-_p = rotate(_p, angle);
-_p = add(_p, [x, y]);
-draw_point(_p[0], _p[1]);
 
 /*var _mouse = [mouse_x-x, mouse_y-y];
 if(mouse_check_button(mb_left)) {

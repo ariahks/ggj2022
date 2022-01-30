@@ -23,6 +23,5 @@ for(var i=0;i<array_length(lines_to_draw);i++) {
 	var _line = lines_to_draw[i];
 	draw_set_color(c_yellow);
 	draw_line_color(_line[0][0], _line[0][1], _line[1][0], _line[1][1], c_red, c_blue);
-}*/
-
-window_set_caption(fps_real);
+}
+*/

@@ -5,7 +5,10 @@
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_gazer",
+    "path": "sprites/spr_gazer/spr_gazer.yy",
+  },
   "persistent": false,
   "parentObjectId": {
     "name": "obj_hazard",
