@@ -159,6 +159,14 @@ function Collision(_intersection1, _intersection2, _collider1, _collider2) const
 	}
 	
 	apply = function() {
+		var _player = undefined;
+		if(collider1.object_index == obj_thing) _player = collider1;
+		if(collider2.object_index == obj_thing) _player = collider2;
+		if(!is_undefined(_player)) {
+			if(dot(_player.velocity, unit_normal) < -8) {
+				_player.bonk();	
+			}
+		}
 		collider1.applyForce(force, location);
 		collider2.applyForce(scale(force, -1), location);
 	}
