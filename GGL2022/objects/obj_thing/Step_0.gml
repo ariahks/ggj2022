@@ -1,3 +1,18 @@
+if(!alive)
+{
+	velocity[0] = 0;
+	velocity[1] = 0;
+	
+	devil_rotation_vel = 0;
+	angel_rotation_vel = 0;
+	
+	angel_rotation = 0;
+	devil_rotation = 0;
+	
+	angle = 0;
+	exit;
+}
+
 if(norm(velocity) > max_velocity) {
 	velocity = scale(velocity, max_velocity/norm(velocity));
 }
@@ -63,8 +78,15 @@ if(wing_devil_timer == 0) wing_devil_index = 0;
 wing_angel_timer = max(0, wing_angel_timer-1);
 wing_devil_timer = max(0, wing_devil_timer-1);
 
+if(bonk_timer > 0) {
+	sprite_angel_index = 1;
+} else {
+	sprite_angel_index = 0;
+	sprite_angel = spr_angel;
+	sprite_devil = spr_devil;
+}
 
-
+bonk_timer = max(0, bonk_timer-1);
 
 /*x += velocity[0];
 y += velocity[1];

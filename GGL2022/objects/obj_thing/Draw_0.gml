@@ -1,8 +1,11 @@
-
+if(!alive)
+{
+	exit;
+}
 
 //draw_sprite_ext(sprite_index, image_index, x, y, 1, 1, radtodeg(angle)/*+100*/, c_white, 1);
-draw_sprite_ext(spr_devil, image_index, x, y, 1, 1, radtodeg(angle) + devil_rotation, c_white, 1);
-draw_sprite_ext(spr_angel, image_index, x, y, 1, 1, radtodeg(angle) + angel_rotation, c_white, 1);
+draw_sprite_ext(sprite_devil, sprite_devil_index, x, y, 1, 1, radtodeg(angle) + devil_rotation, c_white, 1);
+draw_sprite_ext(sprite_angel, sprite_angel_index, x, y, 1, 1, radtodeg(angle) + angel_rotation, c_white, 1);
 draw_sprite_ext(spr_devil_wings, wing_devil_index, x, y, 1, 1, radtodeg(angle) + devil_rotation, c_white, 1);
 draw_sprite_ext(spr_angel_wings, wing_angel_index, x, y, 1, 1, radtodeg(angle) + angel_rotation, c_white, 1);
 

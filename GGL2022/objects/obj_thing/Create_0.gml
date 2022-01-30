@@ -9,17 +9,27 @@ force_from_shot = 3;
 grav = 0.3;
 max_velocity = 20;
 
+bonk_timer = 0;
+
+sprite_angel = spr_angel;
+sprite_devil = spr_devil;
+sprite_angel_index = 0;
+sprite_devil_index = 0;
+
+
 wing_angel_index = 0;
 wing_devil_index = 0;
 wing_angel_timer = 0;
 wing_devil_timer = 0;
 
-devil_rotation = 0
-angel_rotation = 0
-devil_rotation_vel = 0
-angel_rotation_vel = 0
+devil_rotation = 0;
+angel_rotation = 0;
+devil_rotation_vel = 0;
+angel_rotation_vel = 0;
 
-var _tl = [-sprite_width/2, -sprite_height/2];
+alive = true;
+
+var _tl = [-sprite_width/2+8, -sprite_height/2];
 
 var _p1 = add(_tl, [0, 100]);
 var _p2 = add(_tl, [100, 100]);
@@ -47,6 +57,13 @@ function fire(_dir, _pos, _obj) {
 cooldown_a = 0;
 cooldown_d = 0;
 
+function bonk() {
+	bonk_timer = 30;
+	sprite_angel = spr_angel_bonk;
+	sprite_devil = spr_devil_bonk;
+	//change sprite to bonk sprite
+	//play sound eventually
+}
 
 /*velocity = [0, 0];
 velocity_angular = 0;
