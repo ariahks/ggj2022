@@ -7,6 +7,7 @@ if(global.c_devil.x<=center){
 	//obj_thing.y = ground-150;
 	obj_thing.image_angle = 0;
 	obj_thing.image_alpha = 1;
+	instance_create_depth(0, 0, 0, obj_prompts);
 	scr_play(1, false);
 }
 else{

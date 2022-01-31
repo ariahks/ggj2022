@@ -50,8 +50,8 @@ angle += velocity_angular;
 
 velocity_angular *= frict_angular;
 
-key_angel = keyboard_check_pressed(ord("D")) || keyboard_check_pressed(vk_right) || keyboard_check_pressed(vk_enter) || keyboard_check_pressed(ord("M"));
-key_devil = keyboard_check_pressed(ord("A")) || keyboard_check_pressed(vk_left) || keyboard_check_pressed(vk_space) || keyboard_check_pressed(ord("Z"));
+key_angel = keyboard_check_pressed(ord("L"));//keyboard_check_pressed(ord("D")) || keyboard_check_pressed(vk_right) || keyboard_check_pressed(vk_enter) || keyboard_check_pressed(ord("M"));
+key_devil = keyboard_check_pressed(ord("A"));// || keyboard_check_pressed(vk_left) || keyboard_check_pressed(vk_space) || keyboard_check_pressed(ord("Z"));
 
 //if(key_a) apply_force([1, -1], -1);
 //if(key_d) apply_force([-1, -1], 1);
