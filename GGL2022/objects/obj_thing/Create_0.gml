@@ -53,6 +53,7 @@ polygon = new Polygon([_p1, _p2, _p3, _p4]);
 */
 
 function fire(_dir, _pos, _obj) {
+	if(image_alpha == 0) return;
 	var _snd = audio_play_sound((_obj == obj_proj_angel ? snd_shine : snd_fire), 8, false);
 	audio_sound_pitch(_snd, random_range(0.9,1.1));
 	audio_sound_gain(_snd, global.vol_sounds/100, 0);

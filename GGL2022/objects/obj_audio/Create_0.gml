@@ -21,3 +21,9 @@ for(i = 0; i<7;i++){
 	index[i] = audio_play_sound(music[i],10,true);
 	audio_sound_gain(music[i],0,0);
 }
+
+function updateGain() {
+	for(var i=0;i<7;i++) {
+		audio_sound_gain(music[current],global.vol_music/100,0);
+	}
+}

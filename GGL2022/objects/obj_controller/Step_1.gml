@@ -30,6 +30,7 @@ for(var i=0;i<array_length(_collidables);i++) {
 for(var i=0;i<array_length(_collisions);i++) {
 	_collisions[i].calculate_force();
 	_collisions[i].apply();
+	delete _collisions[i];
 }
 
 /*

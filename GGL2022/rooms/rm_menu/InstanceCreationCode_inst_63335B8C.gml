@@ -85,12 +85,14 @@ page[3] = new Page([
 			if(global.vol_music > 0) {
 				global.vol_music = max(0, global.vol_music-10);	
 				page[3].options[0].str = "Music "+(global.vol_music == 0 ? "  " : "< ")+string(global.vol_music)+" >";
+				global.audio.updateGain();
 			}
 		},
 		function() { //right
 			if(global.vol_music < 100) {
 				global.vol_music = min(100, global.vol_music+10);	
 				page[3].options[0].str = "Music < "+string(global.vol_music)+(global.vol_music == 100 ? "  " : " >");
+				global.audio.updateGain();
 			}
 		}
 	),
