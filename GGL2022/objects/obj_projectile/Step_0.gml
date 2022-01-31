@@ -1,3 +1,5 @@
+if(instance_exists(obj_menu)) exit;
+
 x += velocity[0];
 y += velocity[1];
 

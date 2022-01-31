@@ -9,14 +9,14 @@ key_left = keyboard_check_pressed(vk_left) || keyboard_check_pressed(ord("A"));
 key_down = keyboard_check_pressed(vk_down) || keyboard_check_pressed(ord("S"));
 key_right = keyboard_check_pressed(vk_right) || keyboard_check_pressed(ord("D"));
 
-key_any = keyboard_check_pressed(vk_anykey);
+key_confirm = keyboard_check_pressed(vk_enter) || keyboard_check_pressed(vk_space) || keyboard_check_pressed(ord("Z")) || keyboard_check_pressed(ord("E"));
 
 if(key_up) func_up();
 if(key_down) func_down();
 if(key_right) page[index].options[page[index].pos].func_right();
 if(key_left) page[index].options[page[index].pos].func_left();
 
-if(!key_up && !key_down && !key_right && !key_left && key_any) {
+if(key_confirm) {
 	//var _blip = page[index].options[page[index].pos].blip_act;
 	//if(_blip != -1) audio.sfx_play(_blip);
 	page[index].options[page[index].pos].func();

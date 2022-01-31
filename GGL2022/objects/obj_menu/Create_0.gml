@@ -1,4 +1,4 @@
-//depth = DEPTH_MENU;
+depth = -9999;
 
 global.vol_music = 100;
 global.vol_sounds = 100;
@@ -19,7 +19,7 @@ op_border = 32;
 op_space = 64;
 
 x_offset = 0;
-y_offset = room_height/4;
+y_offset = 0;
 
 //blip_move = snd_blip_move;
 

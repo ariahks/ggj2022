@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"spr_angel_cutscene","path":"sprites/spr_angel_cutscene/spr_angel_cutscene.yy",},"order":1,},
     {"id":{"name":"spr_flag","path":"sprites/spr_flag/spr_flag.yy",},"order":22,},
+    {"id":{"name":"scr_menu","path":"scripts/scr_menu/scr_menu.yy",},"order":5,},
     {"id":{"name":"obj_prompt_skip","path":"objects/obj_prompt_skip/obj_prompt_skip.yy",},"order":33,},
     {"id":{"name":"aud_hell2","path":"sounds/aud_hell2/aud_hell2.yy",},"order":6,},
     {"id":{"name":"obj_star","path":"objects/obj_star/obj_star.yy",},"order":28,},

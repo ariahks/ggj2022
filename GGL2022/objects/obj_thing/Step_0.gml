@@ -15,6 +15,21 @@ if(!alive)
 	exit;
 }
 
+
+
+if(keyboard_check_pressed(vk_escape) && image_alpha == 1 && !instance_exists(obj_transition) && !instance_exists(obj_prompt_skip)) {
+	//Open Menu
+	if(instance_exists(obj_menu)) {
+		instance_destroy(obj_menu);
+	} else {
+		with(instance_create_depth(-room_width, -room_height, 0, obj_menu)) {
+			create_menu(false);
+		}
+	}
+}
+
+if(instance_exists(obj_menu)) exit;
+
 if(norm(velocity) > max_velocity) {
 	velocity = scale(velocity, max_velocity/norm(velocity));
 }
@@ -89,6 +104,7 @@ if(bonk_timer > 0) {
 }
 
 bonk_timer = max(0, bonk_timer-1);
+
 
 /*x += velocity[0];
 y += velocity[1];

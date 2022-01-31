@@ -8,3 +8,5 @@ max_range = 612;
 target_in_range = false;
 
 image_speed = 0;
+
+image_speed_target = 0;
