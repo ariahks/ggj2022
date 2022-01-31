@@ -23,26 +23,42 @@ function create_menu(is_title) {
 		)
 	]);
 
-	page[1] = new Page([
-		new Option("Window Size",
-			function() {
-				var _res = string(1600*global.scales[global.scale_index]) + "x" + string(900*global.scales[global.scale_index]);
-				page[2].options[0].str = (global.scale_index == 0 ? "  " : "< ")+_res+(global.scale_index == array_length(global.scales)-1 ? "  " : " >");
-				page[2].options[1].str = (global.fullscreen ? "< Fullscreen  " : "  Windowed >");
-				index = 2;
-			}
-		),
-		new Option("Audio",
-			function() { 
-				page[3].options[0].str = "Music "+(global.vol_music == 0 ? "  " : "< ")+string(global.vol_music)+(global.vol_music == 100 ? "  " : " >");
-				page[3].options[1].str = "Sounds "+(global.vol_sounds == 0 ? "  " : "< ")+string(global.vol_sounds)+(global.vol_sounds == 100 ? "  " : " >");
-				index = 3;
-			}
-		),
-		new Option("Back",
-			function() { index = 0; }
-		)
-	]);
+
+	if(os_browser == browser_not_a_browser) {
+		page[1] = new Page([
+			new Option("Window Size",
+				function() {
+					var _res = string(1600*global.scales[global.scale_index]) + "x" + string(900*global.scales[global.scale_index]);
+					page[2].options[0].str = (global.scale_index == 0 ? "  " : "< ")+_res+(global.scale_index == array_length(global.scales)-1 ? "  " : " >");
+					page[2].options[1].str = (global.fullscreen ? "< Fullscreen  " : "  Windowed >");
+					index = 2;
+				}
+			),
+			new Option("Audio",
+				function() { 
+					page[3].options[0].str = "Music "+(global.vol_music == 0 ? "  " : "< ")+string(global.vol_music)+(global.vol_music == 100 ? "  " : " >");
+					page[3].options[1].str = "Sounds "+(global.vol_sounds == 0 ? "  " : "< ")+string(global.vol_sounds)+(global.vol_sounds == 100 ? "  " : " >");
+					index = 3;
+				}
+			),
+			new Option("Back",
+				function() { index = 0; }
+			)
+		]);
+	} else {
+		page[1] = new Page([
+			new Option("Audio",
+				function() { 
+					page[3].options[0].str = "Music "+(global.vol_music == 0 ? "  " : "< ")+string(global.vol_music)+(global.vol_music == 100 ? "  " : " >");
+					page[3].options[1].str = "Sounds "+(global.vol_sounds == 0 ? "  " : "< ")+string(global.vol_sounds)+(global.vol_sounds == 100 ? "  " : " >");
+					index = 3;
+				}
+			),
+			new Option("Back",
+				function() { index = 0; }
+			)
+		]);	
+	}
 
 	page[2] = new Page([
 		new Option("WINDOW",, //skip func
