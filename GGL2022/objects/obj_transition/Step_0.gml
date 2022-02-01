@@ -1,7 +1,9 @@
 if(room == dest_room && image_index == 0) instance_destroy();
 
-show_debug_message(image_index);
-
+if(!instance_exists(obj_thing)) {
+	instance_destroy();
+	exit;
+}
 if(image_index >= image_number-1) {
 	image_speed = -1;
 	if(dest_room > -1) room_goto(dest_room);

@@ -1,28 +1,47 @@
 function create_menu(is_title) {
-	if(is_title) y_offset = room_height/4;
-	
-	page[0] = new Page([
-		new Option(is_title ? "Play" : "Resume",
-			is_title ? function() {
-				room_goto_next();
-			} : function() {
-				instance_destroy();
-			}
-		),
-		new Option("Settings",
-			function() {
-				index = 1;
-			}
-		),
-		new Option(is_title ? "Quit Game" : "Return to Title",
-			is_title ? function() {
-				game_end();	
-			} : function() {
-				game_restart();	
-			}
-		)
-	]);
-
+	if(is_title) {
+		y_offset = 256;
+		page[0] = new Page([
+			new Option("Play",
+				function() {
+					room_goto_next();
+				}
+			),
+			new Option("Settings",
+				function() {
+					index = 1;
+				}
+			),
+			new Option("Credits",
+				function() {
+					room_goto(credits);
+				}
+			),
+			new Option("Quit Game",
+				function() {
+					game_end();	
+				}
+			)
+		]);
+	} else {
+		page[0] = new Page([
+			new Option("Resume",
+				function() {
+					instance_destroy();
+				}
+			),
+			new Option("Settings",
+				function() {
+					index = 1;
+				}
+			),
+			new Option("Return to Title",
+				function() {
+					game_restart();	
+				}
+			)
+		]);
+	}
 
 	if(os_browser == browser_not_a_browser) {
 		page[1] = new Page([
