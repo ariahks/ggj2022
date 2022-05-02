@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_browser_click","path":"sprites/spr_browser_click/spr_browser_click.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_browser_click",
     "tags": [],
     "resourceType": "GMSequence",

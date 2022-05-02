@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_devil_cutscene_idle","path":"sprites/spr_devil_cutscene_idle/spr_devil_cutscene_idle.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_devil_cutscene_idle",
     "tags": [],
     "resourceType": "GMSequence",

@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_snake_devil","path":"sprites/spr_snake_devil/spr_snake_devil.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_snake_devil",
     "tags": [],
     "resourceType": "GMSequence",

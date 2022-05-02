@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_angel_cutscene","path":"sprites/spr_angel_cutscene/spr_angel_cutscene.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_angel_cutscene",
     "tags": [],
     "resourceType": "GMSequence",

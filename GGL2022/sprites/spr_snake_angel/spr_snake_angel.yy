@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_snake_angel","path":"sprites/spr_snake_angel/spr_snake_angel.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_snake_angel",
     "tags": [],
     "resourceType": "GMSequence",

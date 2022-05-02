@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_key_esc","path":"sprites/spr_key_esc/spr_key_esc.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_key_esc",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_proj_devil","path":"sprites/spr_proj_devil/spr_proj_devil.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_proj_devil",
     "tags": [],
     "resourceType": "GMSequence",

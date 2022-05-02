@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_angel_and_demon","path":"sprites/spr_angel_and_demon/spr_angel_and_demon.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_angel_and_demon",
     "tags": [],
     "resourceType": "GMSequence",

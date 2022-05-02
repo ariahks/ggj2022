@@ -79,7 +79,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_devil_cutscene","path":"sprites/spr_devil_cutscene/spr_devil_cutscene.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_devil_cutscene",
     "tags": [],
     "resourceType": "GMSequence",

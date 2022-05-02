@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_alert","path":"sprites/spr_alert/spr_alert.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_alert",
     "tags": [],
     "resourceType": "GMSequence",

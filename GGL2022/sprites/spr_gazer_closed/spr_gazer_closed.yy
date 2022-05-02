@@ -85,7 +85,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_gazer_closed","path":"sprites/spr_gazer_closed/spr_gazer_closed.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_gazer_closed",
     "tags": [],
     "resourceType": "GMSequence",

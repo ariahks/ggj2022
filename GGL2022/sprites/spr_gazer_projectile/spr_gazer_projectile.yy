@@ -79,7 +79,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_gazer_projectile","path":"sprites/spr_gazer_projectile/spr_gazer_projectile.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_gazer_projectile",
     "tags": [],
     "resourceType": "GMSequence",

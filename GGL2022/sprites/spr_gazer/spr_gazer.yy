@@ -60,7 +60,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_gazer","path":"sprites/spr_gazer/spr_gazer.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_gazer",
     "tags": [],
     "resourceType": "GMSequence",

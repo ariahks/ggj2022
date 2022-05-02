@@ -83,7 +83,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_gazer_projectile_growing","path":"sprites/spr_gazer_projectile_growing/spr_gazer_projectile_growing.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_gazer_projectile_growing",
     "tags": [],
     "resourceType": "GMSequence",

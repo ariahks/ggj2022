@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_proj_angel","path":"sprites/spr_proj_angel/spr_proj_angel.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_proj_angel",
     "tags": [],
     "resourceType": "GMSequence",

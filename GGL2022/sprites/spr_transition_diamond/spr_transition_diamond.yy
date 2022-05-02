@@ -147,7 +147,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_transition_diamond","path":"sprites/spr_transition_diamond/spr_transition_diamond.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_transition_diamond",
     "tags": [],
     "resourceType": "GMSequence",

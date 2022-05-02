@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_heaven_cloud_small","path":"sprites/spr_heaven_cloud_small/spr_heaven_cloud_small.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_heaven_cloud_small",
     "tags": [],
     "resourceType": "GMSequence",

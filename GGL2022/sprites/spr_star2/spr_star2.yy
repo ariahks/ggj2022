@@ -175,7 +175,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_star2","path":"sprites/spr_star2/spr_star2.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_star2",
     "tags": [],
     "resourceType": "GMSequence",
